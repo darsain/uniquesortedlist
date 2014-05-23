@@ -1,0 +1,28 @@
+{
+  "name": "uniquesortedlist",
+  "repo": "darsain/uniquesortedlist",
+  "description": "Extends darsain/sortedlist to create a unique sorted list.",
+  "version": "0.0.1",
+  "keywords": [
+    "array",
+    "list",
+    "unique",
+    "sorted"
+  ],
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "darsain/sortedlist": "*",
+    "darsain/definer": "*",
+    "component/inherit": "*"
+  },
+  "development": {
+    "dependencies": {
+      "visionmedia/mocha": "*",
+      "component/assert": "*"
+    }
+  },
+  "license": "MIT"
+}
