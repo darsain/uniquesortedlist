@@ -74,9 +74,9 @@ If you want to have a UniqueSortedList of objects, pass the custom order & compa
 
 Function for ordering items. Receives 2 arguments, and has to:
 
-- return -1 when a < b
-- return 1 when a > b
-- return 0 otherwise
+- return `-1` when `a < b`
+- return `1` when `a > b`
+- return `0` otherwise
 
 Example:
 
